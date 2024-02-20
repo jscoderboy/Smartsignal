@@ -456,16 +456,16 @@ img {
   .navbar .hamburger-button {
     display: block;
   }
-  /* .hero-section img {
+  .hero-section img {
     display: none;
   }
   .hero-section {
-    background: url("../images/mobile_bg_image2.jpg");
+    background: url("../images/mobile_bg_image.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
-  } */
+  }
   .text-xl {
     font-size: 1.9rem;
   }

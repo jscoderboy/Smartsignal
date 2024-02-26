@@ -159,7 +159,7 @@ img {
   text-align: center;
 }
 .hero-section {
-  background: url("../images/bg_updated.png");
+  background: url("../images/bg_updated.jpg");
   background-position: center;
   background-size: cover;
   background-position: center;
@@ -191,6 +191,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  /* animation-range-start: 40px;
+  animation-range-end: 700px; */
+  animation-range: entry;
 }
 .video-content iframe {
   margin-bottom: 20px;
@@ -421,7 +426,8 @@ header .navbar {
 .policy strong {
   color: #333;
 }
-.policy ul li {
+.policy ul li,
+.refund ul li {
   margin: 10px 0;
 }
 /* Footer */
@@ -539,6 +545,18 @@ header .navbar {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(61, 232, 61);
+}
+/* Animation */
+/* youtube Video container animation */
+@keyframes fade-in {
+  from {
+    scale: 0.8;
+    opacity: 0;
+  }
+  to {
+    scale: 1;
+    opacity: 1;
+  }
 }
 /* Media Query */
 @media (max-width: 960px) {

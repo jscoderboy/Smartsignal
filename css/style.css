@@ -363,6 +363,21 @@ header .navbar {
 .qti strong {
   font-size: 20px;
 }
+.qti_indicator {
+  background: #181028;
+  background: #f4f4f6;
+  color: #111;
+  padding: 48px 0;
+}
+.qti_indicator .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.qti_indicator .grid-container img {
+  border: 1px solid #ccc;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
 /* Pricing */
 .pricing-grid {
   display: grid;
@@ -393,6 +408,21 @@ header .navbar {
 }
 .pricing .pricing-footer {
   margin: 30px 0;
+}
+/* Privacy-Policy */
+.policy h3 {
+  margin: 30px 0;
+}
+.policy p {
+  margin: 20px 0;
+  color: #333;
+  line-height: 1.6;
+}
+.policy strong {
+  color: #333;
+}
+.policy ul li {
+  margin: 10px 0;
 }
 /* Footer */
 .footer {

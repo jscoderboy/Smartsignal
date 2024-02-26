@@ -430,6 +430,9 @@ header .navbar {
 .refund ul li {
   margin: 10px 0;
 }
+.refund {
+  margin: 48px 0;
+}
 /* Footer */
 .footer {
   padding: 40px 0 0 0;

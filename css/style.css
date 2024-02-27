@@ -601,6 +601,9 @@ header .navbar {
     flex-direction: column;
     gap: 30px;
   }
+  .about-us img {
+    display: none;
+  }
   .pricing-grid {
     grid-template-columns: 1fr;
   }

@@ -274,6 +274,9 @@ img {
   display: block;
 }
 /* About us */
+.about-us {
+  background: #f4f4f4;
+}
 .about-us .row {
   display: flex;
   justify-content: center;

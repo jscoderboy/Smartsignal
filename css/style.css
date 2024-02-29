@@ -367,7 +367,8 @@ header .navbar {
   background: #2c2446;
 }
 .qti {
-  margin-top: 100px;
+  /* margin-top: 20px; */
+  background: #f4f4f6;
 }
 .video-container {
   display: flex;

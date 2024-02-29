@@ -424,8 +424,27 @@ header .navbar {
   max-width: 100%;
   width: 300px;
   text-align: center;
+  transition: transform 0.2s; /* Animation */
+}
+.pricing .flex-container .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+}
+.pricing .flex-container .card p {
+  font-size: 22px;
+  margin: 10px 0;
+  font-weight: 600;
+  color: #333;
+}
+.pricing .flex-container .card:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(4, 37, 98, 0.4) -5px 5px, rgba(4, 37, 98, 0.3) -10px 10px,
+    rgba(4, 37, 98, 0.2) -15px 15px, rgba(4, 37, 98, 0.1) -20px 20px,
+    rgba(4, 37, 98, 0.05) -25px 25px;
 }
 .pricing .card span {
+  font-size: 20px;
   text-decoration: line-through;
 }
 /* Privacy-Policy */

@@ -193,6 +193,12 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.video-content,
+.qti .video-container,
+.qti_indicator .grid-container,
+.qti .pricing .flex-container,
+.pricing .flex-container .card {
   animation: fade-in linear forwards;
   animation-timeline: view();
   animation-range: entry;
@@ -400,7 +406,7 @@ header .navbar {
 }
 /* Pricing */
 .pricing {
-  border: 1px solid red;
+  background: #f4f4f4;
 }
 .pricing .flex-container {
   display: flex;
@@ -413,6 +419,7 @@ header .navbar {
   padding: 40px 20px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #fff;
   max-width: 100%;
   width: 300px;
   text-align: center;

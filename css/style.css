@@ -484,7 +484,7 @@ header .navbar {
 }
 .footer .card {
   margin: 20px 30px 30px 0;
-  background: #f4f4f6;
+  /* background: #f4f4f6; */
   border-radius: 10px;
   color: #111;
   padding: 15px;
